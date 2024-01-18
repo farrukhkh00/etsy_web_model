@@ -3,7 +3,8 @@
     margin: 0;
 }
 .nav-bar{
-    border: 0.1vw solid black;
+    /* border: 0.1vw solid gray; */
+    box-shadow: 1px 1px 4px gray;
     height: 8vw;
     width: 99.85vw;
 }
