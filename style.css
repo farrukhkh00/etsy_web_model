@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    border: 0.1vw solid black;
+    height: 8vw;
+    width: 99.85vw;
+}
+nav > img{
+    width: 5.8vw;
+    height: 3vw;
+    position: absolute;
+    margin-left: 2.3vw;
+    margin-top: 1.3vw;
+    cursor: pointer;
+}
+.Categories{
+    margin-left: 10vw;
+    position: absolute;
+    margin-top: 1.5vw;
+    padding: 1vw;
+    height: 1.1vw;
+    padding-top: 0.5vw;
+    cursor: pointer;
+    
+}
+ .Categories:hover{
+    border-radius: 3vw;
+    background-color: lightgray;
+    padding: 1vw;
+    height: 1.1vw;
+    padding-top: 0.5vw;
+} 
+.search{
+    width: 62.5vw;
+    height: 3.5vw;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 19vw;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    padding-left: 1vw;
+    font-size: 1.2vw;
+}
+.btn{
+    position: absolute;
+    margin-top: 1.39vw;
+    margin-left: 78.2vw;
+    height: 2.7vw;
+    width: 2.7vw;
+    border-radius: 2vw;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-top-left-radius: 0vw;
+    border-bottom-left-radius: 0vw;
+    height: 3.1vw;
+    width: 3.12vw;
+    margin-top: 1.2vw;
+    background-color: rgba(255, 102, 0,0.5);
+}
+.signin{
+    position: absolute;
+    margin-top: 1.5vw;
+    margin-left: 83vw;
+    padding: 1vw;
+    height: 1.1vw;
+    padding-top: 0.5vw;
+}
+.signin > a{
+    text-decoration: none;
+    color: black;
+     
+}
+.signin:hover{
+    border-radius: 3vw;
+    background-color: lightgray;
+    padding: 1vw;
+    height: 1.1vw;
+    padding-top: 0.5vw;
+}
+.fav{
+    position: absolute;
+    margin-top: 0.8vw;
+    margin-left: 90vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    padding: 1vw;
+}
+.fav:hover{
+    padding: 1vw;
+    border-radius: 5vw;
+    margin-top: 0.8vw;
+    background-color: rgba(139, 187, 255, 0.5);
+}
+.bag{
+    position: absolute;
+    margin-top: 1.7vw;
+    margin-left: 93.5vw;
+    height: 1.6vw;
+    width: 1.6vw;
+    padding: 1vw;
+    margin-top: 0.8vw;
+    cursor: pointer;
+    
+}
+.bag:hover{
+    padding: 1vw;
+    border-radius: 5vw;
+    margin-top: 0.8vw;
+    background-color: rgba(139, 187, 255, 0.5);
+}
