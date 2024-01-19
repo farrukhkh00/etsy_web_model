@@ -244,11 +244,20 @@ nav > img{
     font-size: 2.35vw;
 }
 .pbox{
+    min-height: 1vw;
+    max-width: 75vw;
+    margin: -1.2vw auto;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+
 }
 .box1{
     /* border: 1px solid black; */
-    height: 180px;
+    height: 170px;
     width: 130px;
     /* border-radius: 65px; */
     margin-top: 3.2vw;
@@ -290,6 +299,7 @@ nav > img{
     height: 180px;
     width: 130px;
     margin-top: 3.2vw;
+    /* border: 1px solid black; */
   }
   .box2 > img{
     height: 130px;
@@ -310,3 +320,110 @@ nav > img{
     transition: 0.4s;
     box-shadow: 1px 1px 1px 1px grey;
   }
+  .box3{
+    height: 180px;
+    width: 130px;
+    margin-top: 3.2vw;
+    /* border: 1px solid black; */
+  }
+  .box3 > img{
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+  }
+  .box3 > span {
+    margin-left: 3vw;
+  }
+  .box3:hover {
+    border-bottom: 0.2vw solid black;
+    /* text-decoration: underline; */
+    opacity: 0.9;
+   
+  }
+  .box3 > img:hover {
+    transform: scale(1.08);
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+
+  .box4{
+    height: 180px;
+    width: 130px;
+    margin-top: 3.2vw;
+    /* border: 1px solid black; */
+  }
+  .box4 > img{
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+  }
+  .box4 > span {
+    margin-left: 2.5vw;
+  }
+  .box4:hover {
+    border-bottom: 0.2vw solid black;
+    /* text-decoration: underline; */
+    opacity: 0.9;
+   
+  }
+  .box4 > img:hover {
+    transform: scale(1.08);
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+
+  .box5{
+    height: 180px;
+    width: 130px;
+    margin-top: 3.2vw;
+    /* border: 1px solid black; */
+  }
+  .box5 > img{
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+  }
+  .box5 > span {
+    margin-left: 1.4vw;
+  }
+  .box5:hover {
+    border-bottom: 0.2vw solid black;
+    /* text-decoration: underline; */
+    opacity: 0.9;
+   
+  }
+  .box5 > img:hover {
+    transform: scale(1.08);
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+  .box6{
+    height: 180px;
+    width: 130px;
+    margin-top: 3.2vw;
+    /* border: 1px solid black; */
+  }
+  .box6 > img{
+    height: 130px;
+    width: 130px;
+    border-radius: 65px;
+  }
+  .box6 > span {
+    margin-left: 3vw;
+  }
+  .box6:hover {
+    border-bottom: 0.2vw solid black;
+    /* text-decoration: underline; */
+    opacity: 0.9;
+   
+  }
+  .box6 > img:hover {
+    transform: scale(1.08);
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px 1px grey;
+  }
+
+
+  
+
+  
